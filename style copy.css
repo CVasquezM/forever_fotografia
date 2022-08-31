@@ -70,6 +70,16 @@ header{
     font-size: 16px;   
 }
 
+@media (max-width: 768px) {
+    .menu{
+        flex-direction: column;
+    }
+
+    .menu__item{
+        display: list-item;
+    }
+}
+
 a:link,
 a:visited,
 a:active {
