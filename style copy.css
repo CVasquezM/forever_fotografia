@@ -71,14 +71,84 @@ header{
 }
 
 @media (max-width: 768px) {
+    
+    #grilla{
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "introduction introduction"
+        "clients_1"
+        "clients_2"
+        "footer footer";
+    
+        grid-template-rows: auto;
+        grid-template-columns: 50% 50%;
+    }
+
+    header{
+        margin-top: 30px;
+    }
+    
     .menu{
         flex-direction: column;
+        justify-items: center;
+    }
+
+    ul{
+        margin-top: 20px;
     }
 
     .menu__item{
-        display: list-item;
+        padding: 5px;
+        display:inline-block;
+        font-size:small;
+
+    }    
+
+    .logo_main{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: 10px;
+        color: #14213D;
     }
+
+    .main-title{
+        font-size: x-large;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .logo_img{
+        height: 100px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    
+    .sub-title{
+        display: none;
+    }
+
+    .introduction__start{
+        text-align: center;
+        padding: 15%;
+        font-size: 10px;
+        background-color: rgb(252, 163, 17, 0.7)
+    }
+    .introduction__start p{
+        padding: 15px;
+    }
+    
+    .introduction__finish{
+        margin-top:5%;
+        font-size: 30px;
+    }
+    
+    
 }
+
 
 a:link,
 a:visited,
@@ -129,6 +199,36 @@ a:active {
     font-size: 30px;
 }
 
+@media (max-width:768px) {
+
+    .introduction__start{
+        text-align: center;
+        background-color: rgb(252, 163, 17, 0.7)
+    }
+    .introduction__start p{
+        padding: 5px;
+        font-size: 10px
+    }
+    
+    .introduction__finish{
+        margin-top:5%;
+        font-size: 15px;
+    }
+
+    #introduction{
+        grid-area: introduction;
+        display: flex;
+        justify-items: center;
+        margin-top: 40px;
+        padding: 5% 20%;
+        color: #14213D;
+        background-image: url(images/party.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+     }
+}
+
 
 /* Clientes */
 
@@ -171,12 +271,68 @@ a:active {
     display:flex;
     flex-direction: column;
     width: 30%;
-    margin-left: 20%;
+    margin-left: 280px;
 }
 
 .clients__image2{
     width:100%; 
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    
+    #grilla{
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "introduction introduction"
+        "clients_1"
+        "clients_2"
+        "footer footer";
+
+        grid-template-columns: 100%;
+    }
+
+    
+    #clients{
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .clients__quotes{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .clients__first{
+        grid-area: clients_1;
+        width: fit-content;
+        margin-bottom: 20 px;
+        margin-left: 0%;
+
+    }
+
+    .clients__first p{
+        font-size: smaller;
+        margin-bottom: 10px;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .clients__second{
+        grid-area: clients_1;
+        width: fit-content;
+        margin-left: 0%;
+        margin-top: 40px;
+
+    }
+
+    .clients__second p{
+        font-size: smaller;
+        margin-bottom: 10px;
+        padding: 0px 30px 0px 30px;
+    
+    }
 }
 
 
@@ -197,6 +353,37 @@ footer{
 
 .instagram{
     margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+
+    footer{
+        margin-top: 30px;
+    }
+    
+    footer p{
+        font-size: x-small;
+    }
+
+    .instagram{
+        width: 20px;
+        height: 20px;
+    }
+
+    .whatsapp{
+        width: 20px;
+        height: 20px;
+    }
+
+    #footer-image{
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 80px;
+    }
+
+
+
+
 }
 
 
