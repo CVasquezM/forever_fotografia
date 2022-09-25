@@ -11,7 +11,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 40px;
     margin-top: 15px;
     color: #14213D;
 }
@@ -24,17 +23,10 @@
     align-items: center;
 }
 
-.col-6_header{
-    display: flex;
-    justify-items: flex-end; 
-    flex-direction: row;
- }
-
  .menu__item{
-    padding: 10px;
+    padding: 7px;
     display:inline-block;
     font-style: normal;
-    font-size: 16px;    
  }
 
 
@@ -116,7 +108,6 @@
     
     
 }
-
 
 a:link,
 a:visited,
@@ -202,34 +193,14 @@ a:active {
 
 /* Clientes */
 
-/* #clients{
-    grid-area: clients;
-}
-.clients__upper{
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-}
-
 .clients__title{
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin-top: 60px;
     margin-bottom: 60px;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 600;
     color: #14213D;
-}
-
-.clients__quotes{
-    display: flex;
-    flex: row;
-}
-
-.clients__first{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin-left: 10%;
 }
 
 .clients__image1{ 
@@ -237,17 +208,11 @@ a:active {
     margin-bottom: 20px;
 }
 
-.clients__second{
-    display:flex;
-    flex-direction: column;
-    width: 30%;
-    margin-left: 280px;
-}
 
 .clients__image2{
     width:100%; 
     margin-bottom: 20px;
-} */
+}
 
 @media (max-width: 768px) {
     
@@ -306,18 +271,16 @@ a:active {
 }
 
 
-footer{
-    grid-area: footer;
-    display: flex;
-    flex-direction: row;
+.footer{
     padding: 40px;
     background-color: #14213D;
     color: white;
 }
 
-#footer-image{
+.footer-image{
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
     width: 50%;
 }
 
