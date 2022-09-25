@@ -7,20 +7,6 @@
 
     /* Cabezote - aplica a todo el sitio web */
 
-/* header{
-    grid-area: header;
-    display: grid;
-    grid-template-areas:
-    "logo options";
-
-    grid-template-rows: 150px;
-    grid-template-columns: repeat(2,50%);
-}
-
-#logo{
-    grid-area: logo;
-}
-
 .logo_main{
     display: flex;
     flex-direction: row;
@@ -38,24 +24,20 @@
     align-items: center;
 }
 
- nav{
-    grid-area: options;
-}
-
-
- .menu{
+.col-6_header{
     display: flex;
+    justify-items: flex-end; 
     flex-direction: row;
-    justify-items: flex-end;
-    align-items: center;
-}
+    margin-top: 55px;
+ }
 
  .menu__item{
     padding: 10px;
     display:inline-block;
     font-style: normal;
     font-size: 16px;    
- }*/
+ }
+
 
 @media (max-width: 768px) {
     

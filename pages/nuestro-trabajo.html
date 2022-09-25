@@ -9,85 +9,93 @@
 </head>
 
 <body>
-    <!-- Información principal de la página -->
+    <!-- Información principal de la empresa -->
     <header>
-        <div class="upper">
-            <div class="logo">
-                <a href="../index.html">
-                    <img class="logo" src="../images/logo-sin-texto.png" alt="Logo escrito Forever y rombos de colores rojo, amarillo y verde" width="130px" height="130px">
-                </a>
+        <div class="container_text-center_header">
+            <div class="row">
+                <div class="col">
+                    <div id="logo">
+                        <div class="logo_main">
+                            <a href="index.html">
+                            <img src="images/logo-sin-texto.png" alt="Logo escrito Forever y rombos de colores rojo, amarillo y verde" width="130px" height="130px">
+                            </a>
+                            <h1 class="main-title">Forever</h1>
+                            <h6 class="sub-title">Contigo para recordar juntos</h6>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- Menú de navegación -->
+                <div class="col-6">
+                    <nav class="col-6_header">
+                        <ul>
+                        <li class="menu__item"><a href="index.html">Inicio</a></li>
+                        <li class="menu__item"><a href="pages/quienes-somos.html">Quiénes somos</a></li>
+                        <li class="menu__item"><a href="pages/nuestro-trabajo.html">Nuestro trabajo</a></li>
+                        <li class="menu__item"><a href="pages/otros-servicios.html">Otros servicios</a></li>
+                        <li class="menu__item"><a href="pages/contacto.html">Conversemos</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <h1 class="main-title">Forever</h1>
-            <h6 class="sub-title">Contigo para recordar juntos</h6>
-        
-            <!-- Menú de navegación -->
-            <nav class="menu">
-                <ul>
-                <li class="menu__item"><a href="../index.html">Inicio</a></li>
-                <li class="menu__item"><a href="../pages/quienes-somos.html">Quiénes somos</a></li>
-                <li class="menu__item"><a href="nuestro-trabajo.html">Nuestro trabajo</a></li>
-                <li class="menu__item"><a href="../pages/otros-servicios.html">Otros servicios</a></li>
-                <li class="menu__item"><a href="../pages/contacto.html">Conversemos</a></li>
-                </ul>
-            </nav>
         </div>
-    </header>    
+    </header>
 
 
 
-        <!-- Fotografías de ejemplo -->
-        <h2>Nuestro trabajo</h2> <hr id="header-line">
-        
-        <div id="our-job__menu">
-            <a class="menu__item" href="#familia">Recuerdos familiares</a>
-            <a class="menu__item" href="#eventos">Eventos</a>
-            <a class="menu__item" href="#producto">Fotografía de producto</a>
+    <!-- Fotografías de ejemplo -->
+    <h2>Nuestro trabajo</h2> <hr id="header-line">
+    
+    <div id="our-job__menu">
+        <a class="menu__item" href="#familia">Recuerdos familiares</a>
+        <a class="menu__item" href="#eventos">Eventos</a>
+        <a class="menu__item" href="#producto">Fotografía de producto</a>
+    </div>
+
+    <section class="examples" id="familia">
+        <h3>Recuerdos familiares</h3>
+        <div class="examples_container">
+            <div class="example__1">
+                <img class= "example-img" src="../images/familia-1.png" alt="Bebé en brazos de mujer">
+                <h5 class="example-text">Cumpleaños de Emilia</h5>
+            </div>
+
+            <div class="example__2">
+                <img class= "example-img" src="../images/familia-2.png" alt="Mujer con bebé en brazos">
+                <h5 class="example-text">Bautizo de Lorenzo</h5>
+            </div>
         </div>
+    </section>
 
-        <section class="examples" id="familia">
-            <h3>Recuerdos familiares</h3>
-            <div class="examples_container">
-                <div class="example__1">
-                    <img class= "example-img" src="../images/familia-1.png" alt="Bebé en brazos de mujer">
-                    <h5 class="example-text">Cumpleaños de Emilia</h5>
-                </div>
-
-                <div class="example__2">
-                    <img class= "example-img" src="../images/familia-2.png" alt="Mujer con bebé en brazos">
-                    <h5 class="example-text">Bautizo de Lorenzo</h5>
-                </div>
+    <section class="examples" id="eventos">
+        <h3>Eventos sociales</h3> 
+        <div class="examples_container">
+            <div class="example__1">
+                <img class= "example-img" src="../images/evento-1.png" alt="Director de Orquesta">
+                <h5 class="example-text">Temporada Internacional de Música Clásica - Medellín Colombia</h5>
             </div>
-        </section>
 
-        <section class="examples" id="eventos">
-            <h3>Eventos sociales</h3> 
-            <div class="examples_container">
-                <div class="example__1">
-                    <img class= "example-img" src="../images/evento-1.png" alt="Director de Orquesta">
-                    <h5 class="example-text">Temporada Internacional de Música Clásica - Medellín Colombia</h5>
-                </div>
-
-                <div class="example__2">
-                    <img class= "example-img" src="../images/evento-2.png" alt="Hombre joven corriendo detrás de un balón">
-                    <h5 class="example-text">Juegos Interuniversitarios</h5>
-                </div>
+            <div class="example__2">
+                <img class= "example-img" src="../images/evento-2.png" alt="Hombre joven corriendo detrás de un balón">
+                <h5 class="example-text">Juegos Interuniversitarios</h5>
             </div>
-        </section>
-        
-        <section class="examples" id="producto">
-            <h3>Fotografía de producto</h3>
-            <div class="examples_container">
-                <div class="example__1">
-                    <img class= "example-img" src="../images/producto-1.png" alt="pulseras de colores">
-                    <h5 class="example-text">Natta - Bisutería</h5>
-                </div>
-
-                <div class="example__2">
-                    <img class= "example-img" src="../images/producto-2.png" alt="Mochilas indígenas tejidas">
-                    <h5 class="example-text">Arraigo - Tienda de artesanías colombianas</h5>
-                </div>
+        </div>
+    </section>
+    
+    <section class="examples" id="producto">
+        <h3>Fotografía de producto</h3>
+        <div class="examples_container">
+            <div class="example__1">
+                <img class= "example-img" src="../images/producto-1.png" alt="pulseras de colores">
+                <h5 class="example-text">Natta - Bisutería</h5>
             </div>
-        </section>
+
+            <div class="example__2">
+                <img class= "example-img" src="../images/producto-2.png" alt="Mochilas indígenas tejidas">
+                <h5 class="example-text">Arraigo - Tienda de artesanías colombianas</h5>
+            </div>
+        </div>
+    </section>
     
 
     <!-- Cierre -->
@@ -98,5 +106,6 @@
             <img class="whatsapp" src="../images/logo-wapp.png" alt="WhatsApp" width="50" height="50">
         </div>
     </footer>
+
 </body>
 </html>
