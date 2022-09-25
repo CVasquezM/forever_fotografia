@@ -8,81 +8,80 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
 </head>
-
-<body>
+    
     <!-- Información principal de la empresa -->
-    <header>
-        <div class="container_text-center_header">
-            <div class="row">
-                <div class="col">
-                    <div id="logo">
-                        <div class="logo_main">
-                            <a href="../index.html">
-                            <img src="../images/logo-sin-texto.png" alt="Logo escrito Forever y rombos de colores rojo, amarillo y verde" width="130px" height="130px">
-                            </a>
-                            <h1 class="main-title">Forever</h1>
-                            <h6 class="sub-title">Contigo para recordar juntos</h6>
+    <div class="container">
+        <header>
+            <div class="container_text-center_header">
+                <div class="row">
+                    <div class="col">
+                        <div id="logo">
+                            <div class="logo_main">
+                                <a href="../index.html">
+                                <img src="../images/logo-sin-texto.png" alt="Logo escrito Forever y rombos de colores rojo, amarillo y verde" width="130px" height="130px">
+                                </a>
+                                <h1 class="main-title">Forever</h1>
+                                <h6 class="sub-title">Contigo para recordar juntos</h6>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-        <!-- Menú de navegación -->
-                <div class="col-6">
-                    <nav class="col-6_header mt-5">
-                        <ul>
-                        <li class="menu__item"><a href="../index.html">Inicio</a></li>
-                        <li class="menu__item"><a href="../pages/quienes-somos.html">Quiénes somos</a></li>
-                        <li class="menu__item"><a href="../pages/nuestro-trabajo.html">Nuestro trabajo</a></li>
-                        <li class="menu__item"><a href="../pages/otros-servicios.html">Otros servicios</a></li>
-                        <li class="menu__item"><a href="../pages/contacto.html">Conversemos</a></li>
-                        </ul>
-                    </nav>
+            <!-- Menú de navegación -->
+                    <div class="col mt-3">
+                        <nav class="col_header mt-5">
+                            <ul>
+                            <li class="menu__item"><a href="../index.html">Inicio</a></li>
+                            <li class="menu__item"><a href="../pages/quienes-somos.html">Quiénes somos</a></li>
+                            <li class="menu__item"><a href="../pages/nuestro-trabajo.html">Nuestro trabajo</a></li>
+                            <li class="menu__item"><a href="../pages/otros-servicios.html">Otros servicios</a></li>
+                            <li class="menu__item"><a href="../pages/contacto.html">Conversemos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
     <!-- Sección de contacto -->
-    <section>
-        <article>
-            <h2>Conversemos</h2> <hr id="header-line">
-            <form action="#" id="form">
-                <div class="field">
-                    <label for="nombre">¿Cómo te llamas?:
-                    <input type="text" placeholder="Nombre completo">
-                    </label>
-                </div>
-                
-                <div class="field">
-                    <label for="email">¿A dónde te podemos escribir?:
-                    <input type="email" placeholder="ejemplo@ejemplo.com" name="correo">
-                    </label>
-                </div>
-                
-                <div class="field">
-                    <label for="celular" >¿Nos dejas tu número de celular?:
-                    <input type="number" placeholder="Celular de contacto" name="celular">
-                    </label>
-                </div>
-                
-                <div class="field" >
-                    <label for="Observaciones"> ¿Qué nos quieres decir?:
-                    <textarea placeholder="Estamos para ayudarte :)" class="long-text-space"></textarea>
-                    </label>
-                </div>
-                <input type="submit" value="Enviar comentario" class="submit">
-                <input type="reset" value="Limpiar campos">
-            </form>
-        </article>
-    </section>
-    
-    <!-- Contacto en redes sociales -->
-    <footer>
-        <p>Recuerda que también puedes contactarnos por Instagram o escribirnos directamente a WhatsApp</p>
-        <div id="footer-image">
-            <img class="instagram" src="../images/logo-ig.png" alt="Instagram" width="50" height="50">
-            <img class="whatsapp" src="../images/logo-wapp.png" alt="WhatsApp" width="50" height="50">
+    <div class="container my-5">
+        <h2>Conversemos</h2> <hr id="header-line">
+        
+        <form class="row g-3 form_body">
+            <div class="col-md-6">
+                <label for="name" class="form-label">¿Cómo te llamas?</label>
+                <input type="text" class="form-control" id="inputName4" placeholder="Tu nombre completo">
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">¿A dónde te podemos escribir?</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Correo electrónico">
+            </div>
+            <div class="col-md-3">
+              <label for="mobile" class="form-label">¿Nos dejas un número para llamarte?</label>
+              <input type="text" class="form-control" id="inputPhone4" placeholder="Número fijo o celular">
+            </div>
+            <div class="col-10">
+              <label for="message" class="form-label">Te leemos</label>
+              <input type="long-space-text" class="form-control" id="inputMessage" placeholder="Escribe aquí lo que nos quieras contar">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+    </div>
+
+    <!-- Cierre -->
+    <div class="container-fluid footer">       
+        <div class="row">
+            <div class="col pt-3">
+                <p>Recuerda que también puedes escribirnos por Instagram o por WhatsApp</p>
+            </div>
+
+            <div class="col footer-image">
+                    <img class="instagram" src="../images/logo-ig.png" alt="Instagram" width="50" height="50">
+                    <img class="whatsapp" src="../images/logo-wapp.png" alt="WhatsApp" width="50" height="50">
+            </div>
         </div>
-    </footer>
+    </div> 
 </body>
 </html>
