@@ -380,9 +380,6 @@ h2{
 }
 
 
-
-
-
             /*Nuestro Trabajo*/
 
 
@@ -445,31 +442,9 @@ h2{
 
           /*Otros Servicios*/ 
 
-.other-services-container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.other-services-text{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-right: 100px;
-}
-
 .other-services{
-    display:flex;
-    flex-direction: column;
-    margin-top: 5%;
-    padding-right: 5%;;
-}
-
-.other-services p{
-    padding: 0px 50px 0px 50px;
-}
-
-.other-services h4{
-    padding-left: 50px;
-    margin-bottom: 7px;
+    border-left: 2px solid #14213D;
+    height: 30%;
+    border-right: 2px solid #14213D;
+    height: 30%;
 }
