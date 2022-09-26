@@ -337,12 +337,6 @@ h2{
     border: 1px solid #FCA311;
 }
 
-#team{
-    display: flex;
-    flex-direction: column;
-    color:#14213D;
-}
-
 /* Quienes Somos - Primer integrante*/
 
 .team_1-image{
