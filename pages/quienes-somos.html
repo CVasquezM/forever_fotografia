@@ -8,74 +8,83 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
 </head>
-
-<body>
+    
     <!-- Información principal de la empresa -->
-    <header>
-        <div class="container_text-center_header">
-            <div class="row">
-                <div class="col">
-                    <div id="logo">
-                        <div class="logo_main">
-                            <a href="../index.html">
-                            <img src="../images/logo-sin-texto.png" alt="Logo escrito Forever y rombos de colores rojo, amarillo y verde" width="130px" height="130px">
-                            </a>
-                            <h1 class="main-title">Forever</h1>
-                            <h6 class="sub-title">Contigo para recordar juntos</h6>
+    <div class="container">
+        <header>
+            <div class="container_text-center_header">
+                <div class="row">
+                    <div class="col">
+                        <div id="logo">
+                            <div class="logo_main">
+                                <a href="../index.html">
+                                <img src="../images/logo-sin-texto.png" alt="Logo escrito Forever y rombos de colores rojo, amarillo y verde" width="130px" height="130px">
+                                </a>
+                                <h1 class="main-title">Forever</h1>
+                                <h6 class="sub-title">Contigo para recordar juntos</h6>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-        <!-- Menú de navegación -->
-                <div class="col-6">
-                    <nav class="col-6_header mt-5">
-                        <ul>
-                        <li class="menu__item"><a href="../index.html">Inicio</a></li>
-                        <li class="menu__item"><a href="../pages/quienes-somos.html">Quiénes somos</a></li>
-                        <li class="menu__item"><a href="../pages/nuestro-trabajo.html">Nuestro trabajo</a></li>
-                        <li class="menu__item"><a href="../pages/otros-servicios.html">Otros servicios</a></li>
-                        <li class="menu__item"><a href="../pages/contacto.html">Conversemos</a></li>
-                        </ul>
-                    </nav>
+                <!-- Menú de navegación -->
+                    <div class="col mt-3">
+                        <nav class="col_header mt-5">
+                            <ul>
+                            <li class="menu__item"><a href="../index.html">Inicio</a></li>
+                            <li class="menu__item"><a href="../pages/quienes-somos.html">Quiénes somos</a></li>
+                            <li class="menu__item"><a href="../pages/nuestro-trabajo.html">Nuestro trabajo</a></li>
+                            <li class="menu__item"><a href="../pages/otros-servicios.html">Otros servicios</a></li>
+                            <li class="menu__item"><a href="../pages/contacto.html">Conversemos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
     <!-- Integrantes del equipo -->
-
     <h2>Quiénes somos</h2> <hr id="header-line">
-    
-    <section id="team">
-        <!-- Integrante 1 -->
-        <article class="team__1">
-            <img class="team__1-image" src="../images/camilo-vasquez.jpg" alt="Hombre joven sonriendo con sombrero violeta">
-            <div class="team__1-text">
+
+    <!-- Integrante 1-->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-6 team_1-image">
+                <img class="team_1-image" src="../images/camilo-vasquez.jpg" alt="Hombre joven sonriendo con sombrero violeta">
+            </div>
+            <div class="col-6 team_1-text">
                 <h3>Camilo Vásquez</h3>
                 <p>Camilo es Comunicador Audiovisual de la Universidad Pontificia Bolivariana de Medellín (Colombia), y con estudios en fotografía y cine en La Habana (Cuba).</p>
                 <p>Desde hace más de cinco años, Camilo se dedica a inmortalizar aquellos momentos que son especiales para todas las familias. Su especialidad son los matrimonios y realizar gestión comercial de Forever.</p>
             </div>
-        </article>
+        </div>
+    </div>
 
-        <!-- Integrante 2 -->
-        <article class="team__2">
-            <img class="team__2-image" src="../images/vicente-garzon.jpg" alt="Hombre joven sonriendo mirando de frente">
-            <div class="team__2-text">
+    <!-- Integrante 2 -->
+    <div class="container mb-5">
+        <div class="row align-items-center">
+            <div class="col-6 team_2-image order-2">
+                <img class="team_2-image" src="../images/vicente-garzon.jpg" alt="Hombre joven sonriendo mirando de frente">
+            </div>                
+            <div class="col-6 team_2-text order-1">
                 <h3>Vicente Garzón</h3>
                 <p>Vicente es fotógrafo de la Escuela de Fotografía de Barcelona. Durante 15 años ha desarrollado diferentes proyectos con empresas y ha cubierto algunos de los eventos más importantes del mundo.</p>
                 <p>En sus ratos libres se encarga de la gerencia de Forever</p>
             </div>
-        </article>
-    </section>
- 
-
-    <!-- Cierre -->
-    <footer>
-        <p>Para contactarnos puedes ingresar a Instagram o escribirnos directamente a WhatsApp</p>
-        <div id="footer-image">
-            <img class="instagram" src="../images/logo-ig.png" alt="Instagram" width="50" height="50">
-            <img class="whatsapp" src="../images/logo-wapp.png" alt="WhatsApp" width="50" height="50">
         </div>
-    </footer>
+    </div> 
+    <!-- Cierre -->
+    <div class="container-fluid mt-5 footer">       
+        <div class="row">
+            <div class="col pt-3">
+                <p>Recuerda que también puedes escribirnos por Instagram o por WhatsApp</p>
+            </div>
+
+            <div class="col footer-image">
+                    <img class="instagram" src="../images/logo-ig.png" alt="Instagram" width="50" height="50">
+                    <img class="whatsapp" src="../images/logo-wapp.png" alt="WhatsApp" width="50" height="50">
+            </div>
+        </div>
+    </div> 
 </body>
 </html>
