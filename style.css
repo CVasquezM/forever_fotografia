@@ -77,8 +77,8 @@
 
     .main-title{
         font-size: x-large;
-        align-items: center;
-        margin-top: 70px;
+        align-items: flex-start;
+        margin-top: 50px;
     }
 
     .logo_img{
@@ -90,22 +90,7 @@
     .sub-title{
         display: none;
     }
-
-    .introduction__start{
-        text-align: center;
-        padding: 15%;
-        font-size: 10px;
-        background-color: rgb(252, 163, 17, 0.7)
-    }
-    .introduction__start p{
-        padding: 15px;
-    }
-    
-    .introduction__finish{
-        margin-top:5%;
-        font-size: 30px;
-    }
-    
+   
     
 }
 
@@ -157,7 +142,7 @@ a:active {
     font-size: 30px;
 }
 
-/* @media (max-width:768px) {
+@media (max-width:768px) {
 
     .introduction__start{
         text-align: center;
@@ -185,7 +170,7 @@ a:active {
         background-position: center;
         background-size: cover;
      }
-} */
+}
 
 
 /* Clientes */
@@ -211,62 +196,6 @@ a:active {
     margin-bottom: 20px;
 }
 
-/* @media (max-width: 768px) {
-    
-    #grilla{
-        display: grid;
-        grid-template-areas:
-        "header header"
-        "introduction introduction"
-        "clients_1"
-        "clients_2"
-        "footer footer";
-
-        grid-template-columns: 100%;
-    }
-
-    
-    #clients{
-        display:flex;
-        flex-direction: column;
-
-    }
-
-    .clients__quotes{
-        display:flex;
-        flex-direction: column;
-    }
-
-    .clients__first{
-        grid-area: clients_1;
-        width: fit-content;
-        margin-bottom: 20 px;
-        margin-left: 0%;
-
-    }
-
-    .clients__first p{
-        font-size: smaller;
-        margin-bottom: 10px;
-        padding: 0px 30px 0px 30px;
-    }
-
-    .clients__second{
-        grid-area: clients_1;
-        width: fit-content;
-        margin-left: 0%;
-        margin-top: 40px;
-
-    }
-
-    .clients__second p{
-        font-size: smaller;
-        margin-bottom: 10px;
-        padding: 0px 30px 0px 30px;
-    
-    }
-} */
-
 
 .footer{
     padding: 40px;
@@ -284,37 +213,6 @@ a:active {
 .instagram{
     margin-left: 15px;
 }
-
-/* @media (max-width: 768px) {
-
-    footer{
-        margin-top: 30px;
-    }
-    
-    footer p{
-        font-size: x-small;
-    }
-
-    .instagram{
-        width: 20px;
-        height: 20px;
-    }
-
-    .whatsapp{
-        width: 20px;
-        height: 20px;
-    }
-
-    #footer-image{
-        display: flex;
-        flex-direction: row-reverse;
-        max-width: 80px;
-    }
-
-
-
-
-} */
 
 
 
@@ -442,9 +340,11 @@ h2{
 
           /*Otros Servicios*/ 
 
-.other-services{
-    border-left: 2px solid #14213D;
-    height: 30%;
-    border-right: 2px solid #14213D;
-    height: 30%;
+
+@media (max-width: 576px) {
+    .other-services{
+        margin-bottom: 7%;
+    }
+
+
 }
