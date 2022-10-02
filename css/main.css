@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Roboto+Condensed:wght@300;400&display=swap");
+.logo_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  color: #14213D;
+  font-family: "Montserrat"; }
+
+.sub-title {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto Condensed"; }
+
+.menu__item {
+  padding: 7px;
+  display: inline-block;
+  font-family: "Montserrat"; }
+  .menu__item:hover {
+    background-color: #FCA311;
+    transition: 0.3s; }
+    .menu__item:hover a {
+      color: white;
+      transition: 0.3s; }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #14213D; }
+
+@media (max-width: 768px) {
+  #grilla {
+    display: grid;
+    grid-template-areas: "header header" "introduction introduction" "clients_1" "clients_2" "footer footer";
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%; }
+  header {
+    margin-top: 30px; }
+  .menu {
+    flex-direction: column;
+    justify-items: center; }
+  ul {
+    margin-top: 20px; }
+  .menu__item {
+    padding: 5px;
+    display: inline-block;
+    font-size: small; }
+  .logo_main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 10px;
+    color: #14213D; }
+  .main-title {
+    font-size: x-large;
+    align-items: flex-start;
+    margin-top: 50px; }
+  .logo_img {
+    height: 100px;
+    width: 100px;
+    margin-top: 35px; }
+  .sub-title {
+    display: none; } }
+
+.footer {
+  padding: 40px;
+  background-color: #14213D;
+  color: white; }
+
+.footer-image {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 50%; }
+
+.instagram {
+  margin-left: 15px; }
+
+#introduction {
+  margin-top: 40px;
+  padding: 5% 20%;
+  color: #14213D;
+  background-image: url(../images/party.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+  @media (max-width: 768px) {
+    #introduction {
+      grid-area: introduction;
+      display: flex;
+      justify-items: center;
+      margin-top: 40px;
+      padding: 5% 20%;
+      color: #14213D;
+      background-image: url(../images/party.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover; } }
+
+.introduction__start {
+  text-align: center;
+  padding: 15%;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #FCA311;
+  font-family: "Montserrat";
+  opacity: 0.8; }
+  .introduction__start p {
+    padding: 15px; }
+  @media (max-width: 768px) {
+    .introduction__start {
+      text-align: center;
+      background-color: #FCA311; }
+      .introduction__start p {
+        padding: 5px;
+        font-size: 10px; } }
+
+.introduction__finish {
+  margin-top: 5%;
+  font-size: 30px; }
+  @media (max-width: 768px) {
+    .introduction__finish {
+      margin-top: 5%;
+      font-size: 15px; } }
+
+.clients {
+  font-family: "Montserrat"; }
+  .clients .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #14213D; }
+  .clients .img {
+    width: 100%;
+    margin-bottom: 20px; }

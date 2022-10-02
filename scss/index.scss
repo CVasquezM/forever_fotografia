@@ -1,0 +1,82 @@
+
+#introduction{
+    margin-top: 40px;
+    padding: 5% 20%;
+    color: $secondary-color;
+    background-image: url(../images/party.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    @media (max-width:768px){
+
+        grid-area: introduction;
+        display: flex;
+        justify-items: center;
+        margin-top: 40px;
+        padding: 5% 20%;
+        color: $secondary-color;
+        background-image: url(../images/party.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+ }
+
+.introduction__start{
+    text-align: center;
+    padding: 15%;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: $primary-color;
+    font-family: $primary-typography;
+    opacity: 0.8;
+
+    p{
+        padding: 15px;
+    }
+
+    @media (max-width:768px){
+        
+        text-align: center;
+        background-color: $primary-color;
+    
+        p{
+            padding: 5px;
+            font-size: 10px
+        }
+    }
+}
+
+.introduction__finish{
+    margin-top:5%;
+    font-size: 30px;
+
+    @media (max-width:768px){
+        
+        margin-top:5%;
+        font-size: 15px;
+    }
+
+}
+
+
+.clients{
+    font-family: $primary-typography;
+        
+    .title{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 30px;
+        font-weight: 600;
+        color: $secondary-color;
+        }
+        
+    
+       .img{ 
+        width:100%;
+        margin-bottom: 20px;
+        }
+}

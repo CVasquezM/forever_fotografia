@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Square+Peg&display=swap);
+    /* @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Square+Peg&display=swap);
 
 *{
     margin: 0px;
     font-family: 'Montserrat';
 }
 
-    /* Cabezote - aplica a todo el sitio web */
+Cabezote - aplica a todo el sitio web
 
 .logo_main{
     display: flex;
@@ -112,8 +112,9 @@ a:active {
     transition: 0.3s;
 }
 
+ 
 
-/* Introducción */
+Introducción
 
 #introduction{
     margin-top: 40px;
@@ -173,7 +174,7 @@ a:active {
 }
 
 
-/* Clientes */
+/* Clientes 
 
 .clients__title{
     display: flex;
@@ -195,8 +196,9 @@ a:active {
     width:100%; 
     margin-bottom: 20px;
 }
+*/
 
-
+/*
 .footer{
     padding: 40px;
     background-color: #14213D;
@@ -214,7 +216,7 @@ a:active {
     margin-left: 15px;
 }
 
-
+*/
 
         /*Quiénes Somos*/
 
@@ -307,41 +309,6 @@ h2{
     flex-direction: column;
     align-items: center;
 }
-/*
-.examples_container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 50px;
-}
-
-.example__1{ 
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    
-}
-
-.example__2{ 
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-
-.example-text{ Pie de foto
-    font-size: 20px;
-    margin-top: 10px;
-    width: 50%;
-    text-align: center;
-} */
-
-
-
-
           /*Otros Servicios*/ 
 
 

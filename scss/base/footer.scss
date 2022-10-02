@@ -1,0 +1,17 @@
+
+.footer{
+    padding: 40px;
+    background-color: $secondary-color;
+    color: $terciary-color;
+}
+
+.footer-image{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 50%;
+}
+
+.instagram{
+    margin-left: 15px;
+}
