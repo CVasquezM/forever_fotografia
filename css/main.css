@@ -216,3 +216,10 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.other-services {
+  font-family: "Montserrat"; }
+
+@media (max-width: 576px) {
+  .other-services {
+    margin-bottom: 7%; } }
