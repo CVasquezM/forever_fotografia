@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Roboto+Condensed:wght@300;400&display=swap");
+.logo_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  color: #14213D;
+  font-family: "Montserrat"; }
+
+.sub-title {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto Condensed"; }
+
+.menu__item {
+  padding: 7px;
+  display: inline-block;
+  font-family: "Montserrat"; }
+  .menu__item:hover {
+    background-color: #FCA311;
+    transition: 0.3s; }
+    .menu__item:hover a {
+      color: white;
+      transition: 0.3s; }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #14213D; }
+
+@media (max-width: 768px) {
+  #grilla {
+    display: grid;
+    grid-template-areas: "header header" "introduction introduction" "clients_1" "clients_2" "footer footer";
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%; }
+  header {
+    margin-top: 30px; }
+  .menu {
+    flex-direction: column;
+    justify-items: center; }
+  ul {
+    margin-top: 20px; }
+  .menu__item {
+    padding: 5px;
+    display: inline-block;
+    font-size: small; }
+  .logo_main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 10px;
+    color: #14213D; }
+  .main-title {
+    font-size: x-large;
+    align-items: flex-start;
+    margin-top: 50px; }
+  .logo_img {
+    height: 100px;
+    width: 100px;
+    margin-top: 35px; }
+  .sub-title {
+    display: none; } }
+
+.footer {
+  padding: 40px;
+  background-color: #14213D;
+  color: white; }
+
+.footer-image {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 50%; }
+
+.instagram {
+  margin-left: 15px; }
+
+#introduction {
+  margin-top: 40px;
+  padding: 5% 20%;
+  color: #14213D;
+  background-image: url(../images/party.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+  @media (max-width: 768px) {
+    #introduction {
+      grid-area: introduction;
+      display: flex;
+      justify-items: center;
+      margin-top: 40px;
+      padding: 5% 20%;
+      color: #14213D;
+      background-image: url(../images/party.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover; } }
+
+.introduction__start {
+  text-align: center;
+  padding: 15%;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #FCA311;
+  font-family: "Montserrat";
+  opacity: 0.8; }
+  .introduction__start p {
+    padding: 15px; }
+  @media (max-width: 768px) {
+    .introduction__start {
+      text-align: center;
+      background-color: #FCA311; }
+      .introduction__start p {
+        padding: 5px;
+        font-size: 10px; } }
+
+.introduction__finish {
+  margin-top: 5%;
+  font-size: 30px; }
+  @media (max-width: 768px) {
+    .introduction__finish {
+      margin-top: 5%;
+      font-size: 15px; } }
+
+.clients {
+  font-family: "Montserrat"; }
+  .clients .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #14213D; }
+  .clients .img {
+    width: 50%;
+    margin-bottom: 20px; }
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  color: #14213D;
+  margin-bottom: 40px;
+  font-family: "Montserrat"; }
+
+#header-line {
+  width: 60%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #FCA311; }
+
+/* Quienes Somos - Primer integrante*/
+.team_1-image {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.team_1-text {
+  padding-right: 15%; }
+  .team_1-text h3 {
+    margin-bottom: 10px;
+    font-family: "Montserrat"; }
+  .team_1-text p {
+    font-family: "Roboto Condensed"; }
+
+.integrante-2 {
+  margin-top: 10%; }
+
+/*Quienes Somos - Segundo integrante*/
+.team_2-image {
+  /*Foto*/
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.team_2-text {
+  /*Contenedor texto*/
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column; }
+  .team_2-text h3 {
+    margin-bottom: 10px;
+    font-family: "Montserrat"; }
+  .team_2-text p {
+    font-family: "Roboto Condensed"; }
+
+.example_menu:hover {
+  background-color: #14213D;
+  transition: 0.3s; }
+  .example_menu:hover a {
+    color: white;
+    transition: 0.3s; }
+
+.examples h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FCA311;
+  margin: 30px 0px 30px 0px;
+  padding: 30px;
+  background-color: #14213D; }
+
+.example-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.other-services {
+  font-family: "Montserrat"; }
+
+@media (max-width: 576px) {
+  .other-services {
+    margin-bottom: 7%; } }

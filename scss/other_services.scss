@@ -1,0 +1,10 @@
+
+.other-services{
+    font-family: $primary-typography;
+}
+
+@media (max-width: 576px) {
+    .other-services{
+        margin-bottom: 7%;
+    }
+}
